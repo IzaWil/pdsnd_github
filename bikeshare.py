@@ -235,7 +235,7 @@ def user_stats(df, city):
 
 def raw_data(df):
     """ Displaying raw data on request. """
-    x = 1
+    x = 0
     while True:
         raw_data = input("\nWould you like to see some raw data? Answer yes or no.\n")
         if raw_data.lower() == 'yes':
