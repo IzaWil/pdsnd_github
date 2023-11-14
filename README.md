@@ -1,17 +1,39 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# Programming for Data Science with Python
 
-### Date created
-Include the date you created this project and README file.
+## Project Title
+Bikeshare
+Created by Izabela Wilczyńska
 
-### Project Title
-Replace the Project Title
+## Description
+BikeShare use data provided by [Motivate](https://motivateco.com/), a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. This project compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
 
-### Description
-Describe what your project is about and what it does
+Developed CLI programm allows the user to explore BikeShare database and retrieve following information:
 
-### Files used
-Include the files used
+### 1 Popular times of travel (i.e., occurs most often in the start time)
+* most common month
+* most common day of week
+* most common hour of day
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+### 2 Popular stations and trip
+* most common start station
+* most common end station
+* most common trip from start to end (i.e., most frequent combination of start station and end station)
+
+### 3 Trip duration
+* total travel time
+* average travel time
+
+### 4 User info
+* counts of each user type
+* counts of each gender (only available for NYC and Chicago)
+* earliest, most recent, most common year of birth (only available for NYC and Chicago)
+
+### 5 Raw data
+
+
+## Files used
+For running *bikeshare.py* script city dataset files are required:
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 

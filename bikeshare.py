@@ -145,7 +145,11 @@ def time_stats(df):
 
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """
+    Displays statistics on the most popular stations and trip.
+    Trip is a combination of start & end station. 
+
+    """
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
@@ -255,7 +259,8 @@ def main():
         trip_duration_stats(df)
         user_stats(df,city)
         raw_data(df)
-
+        
+        # Restarting data exploration on request
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes' or restart.lower() != 'no':
             print("\nPlease enter a valid answer: yes or no.")
