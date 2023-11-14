@@ -231,8 +231,10 @@ def user_stats(df, city):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-    
-    # Displaying raw data on request
+
+
+def raw_data(df):
+    """ Displaying raw data on request. """
     x = 1
     while True:
         raw_data = input("\nWould you like to see some raw data? Answer yes or no.\n")
@@ -252,6 +254,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df,city)
+        raw_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes' or restart.lower() != 'no':
